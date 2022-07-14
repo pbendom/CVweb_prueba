@@ -4543,6 +4543,11 @@ textarea.form-control-lg {
   --bs-pagination-border-radius: 0.25rem;
 }
 
+.badge-light {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
 .badge {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
