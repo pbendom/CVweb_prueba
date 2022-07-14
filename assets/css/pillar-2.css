@@ -4551,6 +4551,10 @@ textarea.form-control-lg {
 .badge {
     display: inline-block;
     padding: 0.25em 0.4em;
+    padding-top: 0.25em;
+    padding-right: 0.4em;
+    padding-bottom: 0.25em;
+    padding-left: 0.4em;
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
@@ -4558,7 +4562,15 @@ textarea.form-control-lg {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
 }
 
 .badge2 {
