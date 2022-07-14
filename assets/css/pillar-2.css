@@ -4544,7 +4544,7 @@ textarea.form-control-lg {
 }
 
 .badge-light {
-    color: #212529;
+    color: #3582C4;
     background-color: #f8f9fa;
 }
 
@@ -7925,8 +7925,8 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+    color: #fff;
+    background-color: #434E5E;
 }
 
 .bg-black {
